@@ -1,0 +1,153 @@
+
+header{
+    position: relative;
+}
+nav{width: 1366px;
+    height: 120px;
+    background-color: saddlebrown;
+z-index: 1;
+    margin: auto;
+    position:absolute;
+}
+a{
+    color: white;
+}
+.a1,.a2{
+    display: inline;
+}
+nav img{
+    position: absolute;
+    left:15%;
+}
+header li{
+    display: inline-block;
+}
+.b1{
+    position: absolute;
+    right: 15%;
+}
+.a2{
+    position: absolute;
+    top:80px;
+    left: 40%;
+    font-size: 18px;
+}
+.a2 li{
+    padding-right: 20px;
+    margin-left:5px;
+    border-right: 1px solid salmon;
+}
+.a2 li:last-child{
+    border-right: transparent;
+}
+.b2{
+    width: 1090px;
+    height: 300px;
+    margin: auto;
+    background: url("../img/02.png") 0 337px;
+
+}
+
+main{
+    position: relative;
+    left: 110px;
+    top: 50px;
+
+}
+aside{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+}
+aside ul{
+    margin: 20px 0 20px 0;
+}
+aside span {
+   font-size: 20px;
+    color: red;
+}
+aside ul li:first-child{
+    font: 700 20px black;
+}
+aside .b3 li{
+    text-align: center;
+    height: 40px;
+    border-bottom: 1px solid gray;
+    line-height: 40px;
+}
+aside .b4 li
+{
+    height: 70px;
+    border-bottom: 1px solid gray;
+   padding: 0 20px 0 20px;
+}
+aside .b4 li:first-child{
+    height: 40px;
+}
+aside li:hover{
+    background-color: saddlebrown;
+    color: white;
+    width: 170px;
+    margin: auto;
+}
+aside input:first-child{
+    width: 150px;
+}
+aside input:last-child{
+    border: transparent;
+    margin-left: -5px;
+    background-color: saddlebrown;
+}
+section{
+    position: absolute;
+    left: 300px;
+    width: 780px;
+}
+section span:first-child{
+    font-size: 20px;
+}
+section .s1{
+    position: absolute;
+    right: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+section .s1 img{
+    margin-left: -65px;
+    margin-top: 5px;
+}
+section .s2{
+    margin-top: 60px;
+}
+section .s2 img{
+    border: 1px solid gray;
+    float: left;
+    padding: 5px;
+    border-radius: 5px;
+    width: 149px;
+    height: 149px;
+    margin-right: 40px;
+}
+.s2p{
+    color: red;
+    font-size: 18px;
+}
+.s2p1{
+    color: gray;
+    font-size: 14px;
+}
+.s2p2{
+    text-indent: 2em;
+    color: gray;
+    font-size: 14px;
+}
+.s3{
+   padding: 50px 0 50px 250px;
+}
+footer{
+    top: 0;
+     width: 1366px;
+     height: 300px;
+     background-color: saddlebrown;
+ }

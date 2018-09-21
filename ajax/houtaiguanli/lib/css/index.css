@@ -1,0 +1,55 @@
+html,body{
+	height:100%;
+}
+.main{
+	padding-top:50px;
+}
+.main,.main .row,.main .row .left{
+	height:100%;
+}
+.main .nav{
+	height:100%;
+	overflow-y: auto;
+	margin-left:-15px;
+	border-radius: 0px;
+}
+::-webkit-scrollbar{
+	width:16px;
+	height:1px;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 5px rgba(255,255,255,0.5);
+	background: #535353;
+}
+::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 5px rgba(100,100,100,0.2);
+	border-radius: 10px;
+	background: #EDEDED;
+}
+.main .nav .collapsed .glyphicon-chevron-up:before{
+	content:'\e114';
+}
+.main .list-group{
+	margin-bottom:0px;
+}
+.main .list-group-item:first-child,.main .list-group-item:last-child{
+	border-radius:0px;
+}
+.main .nav .list-group-item a{
+	color:#050505;
+	display: block;
+	text-decoration: none;
+	border:none;
+}
+.main .list-group-item:hover,.main .list-group-item:focus{
+	border:none;
+	background-image:linear-gradient(to top, #337ab7 0%, #2b669a 100%);
+}
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color:#080808;
+	box-shadow: 0px 0px 2px 1px #080808;
+}
+.main .nav a{
+	color:#9d9d9d;
+}

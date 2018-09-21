@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				height: 98%;
+			}
+			div{
+				height: 98%;
+				background-color: gray;
+			}
+			div p{
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				background-color: greenyellow;
+				position: relative;
+			}
+			#btn{
+				width: 200px;
+				height: 50px;
+				font-size: 30px;
+				background-color: red;
+				text-align: center;
+				color: blue;
+				display: block;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<button id="btn">原路返回</button>
+		<div id="box">
+			<p></p>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var circle = document.querySelector("p")
+		var lefts = []
+		var tops = []
+		//把初始位置记录下来
+		lefts.push(0)
+		tops.push(0)
+		//触摸的时候，把各个位置压栈到数组中存储起来以便返回到起始点
+		box.addEventListener("mousemove",function(e){
+			var divLeft = e.clientX - circle.offsetWidth / 2
+			var divTop = e.clientY - circle.offsetHeight / 2
+			lefts.push(divLeft)
+			tops.push(divTop)
+			circle.style.left = divLeft + "px"
+			circle.style.top = divTop + "px"
+		},false)
+		btn.onclick = function(){
+			var id = setInterval(function(){
+				if(lefts.length == 0){
+					clearInterval(id)
+				}
+				circle.style.left = lefts.pop() + "px"
+				circle.style.top = tops.pop() + "px"
+			},50)
+		}
+	</script>
+</html>
