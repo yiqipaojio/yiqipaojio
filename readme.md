@@ -5,20 +5,20 @@ http://yiqipaojio.github.io/css/无限锤/新闻中心.html
 
 #javascript
 
-[万年历](http://yiqipaojio.github.io/javascript/calender/万年历效果.html)
-http://yiqipaojio.github.io/javascript/calender/万年历效果.html
+[万年历](http://yiqipaojio.github.io/javascript/calendar/万年历效果.html)
+http://yiqipaojio.github.io/javascript/calendar/万年历效果.html
 
-[复选框全选](http://yiqipaojio.github.io/javascript/fuxuankuan/check.all.html)
-http://yiqipaojio.github.io/javascript/fuxuankuan/check.all.html
+[复选框全选](http://yiqipaojio.github.io/javascript/fuxuankuan/check_all.html)
+http://yiqipaojio.github.io/javascript/fuxuankuan/check_all.html
 
-[H5实现选择衣服效果](http://yiqipaojio.github.io/javascript/guangchayifu/H5实现选择衣服效果历效果.html)
-http://yiqipaojio.github.io/javascript/guangchayifu/H5实现选择衣服效果历效果.html
+[H5实现选择衣服效果](http://yiqipaojio.github.io/javascript/guangchayifu/H5实现选择衣服效果.html)
+http://yiqipaojio.github.io/javascript/guangchayifu/H5实现选择衣服效果.html
 
 [放大镜效果](http://yiqipaojio.github.io/javascript/js-magnifier/放大镜效果.html)
 http://yiqipaojio.github.io/javascript/js-magnifier/放大镜效果.html
 
-[打地鼠](http://yiqipaojio.github.io/javascript/mouseg/mouse1.html)
-http://yiqipaojio.github.io/javascript/mouseg/mouse1.html
+[打地鼠](http://yiqipaojio.github.io/javascript/mouse/mouse1.html)
+http://yiqipaojio.github.io/javascript/mouse/mouse1.html
 
 [小球原路返回](http://yiqipaojio.github.io/javascript/xiaoqiufanhui/原路返回.html)
 http://yiqipaojio.github.io/javascript/xiaoqiufanhui/原路返回.html
